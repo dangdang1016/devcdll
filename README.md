@@ -103,7 +103,8 @@ int main()
         printf("Error: Could not load DLL.\n");
     }
     
-    // ...
+    printf("Press Enter to exit.\n");
+    getchar();
     return 0;
 }
 
