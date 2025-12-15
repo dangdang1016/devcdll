@@ -136,15 +136,17 @@ int main()
     執行 main.exe。
 
 預期結果: 主控台將印出載入成功的訊息，隨後彈出一個標題為 "Hi" 的 Windows 訊息框，最後印出 DLL 卸載成功的訊息。
-💡 動態載入函式說明
 
-程式碼使用以下三個核心 Windows API 函式實現動態載入：
 
-    LoadLibrary: 目的為載入指定的 DLL 模組。
 
-    GetProcAddress: 目的為透過函式名稱，獲取匯出函式的記憶體位址。
 
-    FreeLibrary: 目的為卸載 DLL 模組，釋放資源。
+
+
+
+
+
+
+
 📜 授權
 
-此專案採用 [請填寫您的授權名稱，例如：MIT License]。
+此專案依循 GNU General Public License v3.0 (GPL v3) 發布。詳情請參閱專案根目錄下的 LICENSE 文件。
