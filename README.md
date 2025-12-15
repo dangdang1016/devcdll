@@ -38,7 +38,7 @@ DLLIMPORT void HelloWorld();
 2. dll.c (DLL 實作與 DllMain)
 
 實現了會彈出 "Hello World" 訊息框的 HelloWorld 函式。
-C
+```C
 
 #include "dll.h"
 #include <windows.h>
@@ -55,6 +55,11 @@ BOOL WINAPI DllMain(HINSTANCE hinstDLL,DWORD fdwReason,LPVOID lpvReserved)
     // ... (處理 DLL_PROCESS_ATTACH, DLL_PROCESS_DETACH 等事件)
     return TRUE;
 }
+
+
+```
+
+
 
 3. main.c (主程式動態載入器)
 
